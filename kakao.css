@@ -44,21 +44,25 @@ html > body{
 	padding:15px;
 }
 
-.globe-img{
+.globe-img-btn{
 	margin-left:30px;
+	display:flex;
+	align-items:center;
 }
 
-.globe-img > img{
-	filter:brightness(0);
+.globe-img{
+	background-image:url(https://www.kakaobank.com/static/images/web/icon_eng_w.svg);
+	background-size: 20px 20px;
+	filter: brightness(0);
 	display:block;
 	width:20px;
 	height:20px;
+	background-repeat: no-repeat;
 }
 
-.globe-img:hover > img{
-	filter:brightness(0.3);
+.globe-img-btn:hover > .globe-img {
+	filter:brightness(0.5);
 }
-
 
 
 /*구현 끝*/
