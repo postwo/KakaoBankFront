@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html > body{
+	font-family:'GmarketSansMedium';
+ }
+
+ /* lib */
+
+
+ /* custom */
+ .section-1{
+    background-image: url(https://www.kakaobank.com/static/images/web/renewal/main-bg3.png);
+		background-size: 1080px;	
+	 	background-repeat:no-repeat;
+	 	background-position: center 0;
+		background-color: #ffef6b 
+}
