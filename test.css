@@ -1,12 +1,12 @@
-body{
-	margin:0;
+body {
+	margin: 0;
 }
 
-div{
+div {
 	position: relative;
 }
 
-div::before{
+div::before {
 	content: "123";
 	background-color: red;
 	position: absolute;
@@ -14,16 +14,16 @@ div::before{
 	left: 0;
 	bottom: 0px;
 	right: 0;
-	z-index: -1; 
+	z-index: -1;
 }
 
-div > section{
+div > section {
 	margin: 0 auto;
-	background-image:		url(https://via.placeholder.com/640x360?text=HI);
+	background-image: url(https://via.placeholder.com/640x360?text=HI");
 	width: 1200px;
 	height: 884px;	
-	background-size: 1080px;	
-	background-repeat:no-repeat;
+	background-size: 1080px;
+	background-repeat: no-repeat;
 	background-position: center 0;
 	background-color: blue;
 }
