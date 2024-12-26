@@ -19,7 +19,7 @@ div::before {
 
 div > section {
 	margin: 0 auto;
-	background-image: url(https://via.placeholder.com/640x360?text=HI");
+	background-image: url("https://via.placeholder.com/640x360?text=HI");
 	width: 1200px;
 	height: 884px;	
 	background-size: 1080px;
